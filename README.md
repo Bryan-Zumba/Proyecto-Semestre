@@ -1,7 +1,5 @@
 "# Proyecto-Semestre" 
-
 #Temas tratados
-
 # Qué es Python?
 
 # Qué es una variable?
