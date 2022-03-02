@@ -46,7 +46,7 @@ Dentro de los operadores básicos tenemos los siguientes, con sus respectivos s�
 Suma= (+)
 Resta= (-)
 Multiplicación= (*)
-División= (/)
+División (/)
 ```
 ### Suma
 
