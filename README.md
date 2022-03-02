@@ -1,5 +1,5 @@
 # Proyecto-Semestre 
-# Qué es Python?
+# Qué es Python? ♣
 Python es un lenguaje de programación de alto nivel, orientado a objetos, con una semántica dinámica integrada, principalmente para el desarrollo web y de aplicaciones informáticas. Se trata de un lenguaje interpretado, lo que significa que el código escrito no se traduce realmente a un formato legible por el ordenador en tiempo de ejecución.
 
 # Qué es una variable?
