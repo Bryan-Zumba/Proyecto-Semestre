@@ -41,7 +41,13 @@ Por ejemplo:
 Suma_valores = 1+2
 ```
 ## Operadores básicos
-
+Dentro de los operadores básicos tenemos los siguientes, con sus respectivos símbolos:
+```python
+Suma (+)
+Resta (-)
+Multiplicación (*)
+División (/)
+```
 ### Suma
 
 ### Resta
