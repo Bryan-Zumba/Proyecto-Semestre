@@ -21,7 +21,10 @@ Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las s
 6.-El nombre de una variable en C# es case sensitive (es decir, a lo largo de tu programa debe escribirse exactamente igual).
 
 7.-Utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
-
+Una manera correcta de nombrar una variable se vería así:
+```python
+Suma_valores=
+```
 ## Asignando valores a una variable
 
 ## Operadores básicos
