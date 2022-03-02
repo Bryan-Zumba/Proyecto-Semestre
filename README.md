@@ -4,10 +4,9 @@ Python es un lenguaje de programación de alto nivel, orientado a objetos, con u
 
 # Qué es una variable?
 Una variable es un nombre para representar un valor de un dato, por ejemplo, si tenemos un programa que suma dos número, necesitamos un nombre para identificar el valor1 y el valor2 (mira, esto mismo nos serviría como variables, valor1 y valor2 podrían ser el nombre de nuestras variables)
-´´´python
+```python
 num=suma1+suma2
-´´´
-
+```
 ## Nombrando una variable
 
 ## Asignando valores a una variable
