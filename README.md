@@ -23,7 +23,7 @@ Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las s
 7.-Utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
 Una manera correcta de nombrar una variable se vería así:
 ```python
-Suma_números=
+Suma_valores =
 ```
 ## Asignando valores a una variable
 Para asignar un valor (un dato) a una variable se utiliza el operador de asignación "=".
@@ -38,7 +38,7 @@ En la operación de asignación se ven involucradas tres partes:
 Por ejemplo:
 ```python
 #Asignamos una variable al resultado de la suma entre 1 y 2
-Suma_números=1+2
+Suma_valores = 1+2
 ```
 ## Operadores básicos
 
