@@ -1,4 +1,4 @@
-"# Proyecto-Semestre" 
+# Proyecto-Semestre 
 # Qué es Python?
 
 # Qué es una variable?
