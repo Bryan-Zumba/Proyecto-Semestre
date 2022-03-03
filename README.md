@@ -68,6 +68,22 @@ print ("El resultado de la suma es:", suma)
 El resultado de la suma es: 11
 ```
 ### Resta
+La realizaremos de la misma manera que en la suma, solo que esta vez utilizaremos el signo correspondiente a la operación. 
+```python
+#Definimos variables para nuestros valores numericos 
+a=5
+b=6
+
+#Definimos una variable para la operación que realizaremos, en este caso la suma:
+resta= a-b
+
+#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+print ("El resultado de la resta es:", resta)
+
+#El print se verá de esta manera:
+El resultado de la resta es: -1
+```
+
 
 ### Multiplicación
 
