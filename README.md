@@ -6,21 +6,21 @@ Python es un lenguaje de programación de alto nivel, orientado a objetos, con u
 Una variable es un nombre para representar un valor de un dato, por ejemplo, si tenemos un programa que suma dos número, necesitamos un nombre para identificar el valor1 y el valor2 (mira, esto mismo nos serviría como variables, valor1 y valor2 podrían ser el nombre de nuestras variables)
 
 ## Nombrando una variable
-Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las siguientes 7 reglas al definir una variable,y no tener problemas con el compilador:
+Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las siguientes reglas al definir una variable,y no tener problemas con el compilador:
 
-1.-Una variable, siempre debe iniciar con una letra (mayúscula o minúscula) ó un guión bajo (_).
+Una variable, siempre debe iniciar con una letra (mayúscula o minúscula) ó un guión bajo (_).
 
-2.-Una variable, puede contener números, solamente después de  la primer letra (siguiendo la regla anterior).
+Una variable, puede contener números, solamente después de  la primer letra (siguiendo la regla anterior).
 
-3.-No es permitido dejar un espacio en blanco a lo largo de la variable.
+No es permitido dejar un espacio en blanco a lo largo de la variable.
 
-4.-Aunque una variable puede ser del largo que tú desees, lo recomendable es que sea una variable corta (regularmente entre 20 y 30 caracteres como máximo).
+Aunque una variable puede ser del largo que tú desees, lo recomendable es que sea una variable corta (regularmente entre 20 y 30 caracteres como máximo).
 
-5.-No puedes utilizar palabras reservadas para la declaración de una variable.
+No puedes utilizar palabras reservadas para la declaración de una variable.
 
-6.-El nombre de una variable en C# es case sensitive (es decir, a lo largo de tu programa debe escribirse exactamente igual).
+El nombre de una variable en C# es case sensitive (es decir, a lo largo de tu programa debe escribirse exactamente igual).
 
-7.-Utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
+Utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
 Una manera correcta de nombrar una variable se vería así:
 ```python
 suma_valores =
@@ -43,13 +43,30 @@ suma_valores = 1+2
 ## Operadores básicos
 Dentro de los operadores básicos tenemos los siguientes, con sus respectivos símbolos:
 ```python
-suma (+)
-resta (-)
-multiplicación (*)
-división (/)
+suma: (+)
+resta: (-)
+multiplicación: (*)
+división: (/)
+división entera: (//)
+módulo: (%)
+potenciacion: (**)
 ```
 ### Suma
+Para poder efectuar una suma:
+```python
+#Definimos variables para nuestros valores numericos 
+a=5
+b=6
 
+#Definimos una variable para la operación que realizaremos, en este caso la suma:
+suma= a+b
+
+#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+print ("El resultado de la suma es:", suma)
+
+#El print se verá de esta manera:
+El resultado de la suma es: 11
+```
 ### Resta
 
 ### Multiplicación
