@@ -1,4 +1,4 @@
-num=85
-num1=15
+num=75
+num1=25
 
 print("El resultado de la suma es:",num+num1)
