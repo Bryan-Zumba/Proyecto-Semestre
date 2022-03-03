@@ -24,7 +24,7 @@ Para asignar un valor (un dato) a una variable se utiliza el operador de asignac
 
 En la operación de asignación se ven involucradas tres partes:
 
-1.-El operador de asignación =
+1.-El operador de asignación "="
 
 2.-Un identificador o nombre de variable, a la izquierda del operador
 
@@ -134,10 +134,20 @@ Su módulo sera: 0
 # Tipos de datos en Python
 
 ## Integer
+El tipo int (del inglés integer, que significa «entero») permite representar números enteros.
+
+Los valores que puede tomar un int son todos los números enteros:
+``` ... -3, -2, -1, 0, 1, 2, 3, ... ```
 
 ## Float
-
+Sirve para poder interpretar y representar los números decimales, por ejemplo: 
+```
+1.25
+0.14
+-5.68
+```
 ## String
+A los valores que representan texto se les llama strings, y tienen el tipo str. Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles.
 
 ## Casting en Python
 
