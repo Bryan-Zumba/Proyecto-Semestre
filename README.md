@@ -147,9 +147,15 @@ Sirve para poder interpretar y representar los números decimales, por ejemplo:
 -5.68
 ```
 ## String
-A los valores que representan texto se les llama strings, y tienen el tipo str. Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles.
-
+A los valores que representan texto se les llama strings, y tienen el tipo str. Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
+```python 
+a="10"
+b="5"
+operación= a+b
+print("15")
+```
 ## Casting en Python
+
 
 ## List
 
