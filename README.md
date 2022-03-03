@@ -55,11 +55,11 @@ potenciacion: (**)
 Para poder efectuar una suma:
 ```python
 #Definimos variables para nuestros valores numericos 
-a=5
-b=6
+a = 5
+b = 6
 
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
-suma= a+b
+suma = a+b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
 print ("El resultado de la suma es:", suma)
@@ -71,11 +71,11 @@ El resultado de la suma es: 11
 La realizaremos de la misma manera que en la suma, solo que esta vez utilizaremos el signo correspondiente a la operación. 
 ```python
 #Definimos variables para nuestros valores numericos 
-a=5
-b=6
+a = 5
+b = 6
 
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
-resta= a-b
+resta = a-b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
 print ("El resultado de la resta es:", resta)
@@ -83,13 +83,53 @@ print ("El resultado de la resta es:", resta)
 #El print se verá de esta manera:
 El resultado de la resta es: -1
 ```
-
-
 ### Multiplicación
+Para esta operación, utilizaremos su signo correspondiente(*)
+```python
+#Definimos variables para nuestros valores numericos 
+a = 10
+b = 5
 
+#Definimos una variable para la operación que realizaremos, en este caso la suma:
+multiplicación = a*b
+
+#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+print ("El resultado de la multiplicación es:", multiplicación)
+
+#El print se verá de esta manera:
+El resultado de la multiplicación es: 50
+```
 ### División
+En el caso de la división, sera el mismo proceso, con la diferencia que se realizará con su signo correspondiente.
+```python
+#Definimos variables para nuestros valores numéricos 
+a = 10
+b = 5
 
+#Definimos una variable para la operación que realizaremos, en este caso la suma:
+división = a/b
+
+#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+print ("El resultado de la división es:", división)
+
+#El print se verá de esta manera:
+El resultado de la división es: 2
+```
 ### Módulo
+```python
+#Definimos variables para nuestros valores numéricos 
+a = 10
+b = 5
+
+#Definimos una variable para la operación que realizaremos, en este caso la suma:
+módulo = a%b
+
+#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+print ("Su módulo sera:", módulo)
+
+#El print se verá de esta manera:
+Su módulo sera: 0
+```
 
 # Tipos de datos en Python
 
