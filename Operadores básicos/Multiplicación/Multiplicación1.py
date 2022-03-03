@@ -3,4 +3,4 @@
 coca_cola=0.5
 
 result= coca_cola*3
-print("El resultado de la multiplicación es:",result)
+print("El resultado de la multiplicación es: $",result)
