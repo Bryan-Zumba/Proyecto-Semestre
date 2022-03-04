@@ -148,7 +148,7 @@ suma= a + b
 print ("El resultado es:",int(suma))             #El resultado es: 7
 ```
 ## List
-Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas, una lista sea crea con [] separando sus elementos con comas " , ". A continuación un ejemplo:
+Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas, una lista sea crea con [ ] separando sus elementos con comas " , ". A continuación un ejemplo:
 ```python
 lista = [10, "Bryan", 3.67, [1, 6, 9]]
 print(lista)                              #[10, 'Bryan', 3.67, [1, 2, 3]]
@@ -157,7 +157,7 @@ lista = list("123456789b")
 print(lista)                              #['1', '2', '3', '4', '5', '6', '7', '8', '9', 'b']
 ```
 ## Tuple
-Son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con (). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas. A continuación un ejemplo:
+Son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con ( ). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas. A continuación un ejemplo:
 ```python
 tupla = (0, 100, 200)
 print(tupla)                     #(0, 100, 200)
