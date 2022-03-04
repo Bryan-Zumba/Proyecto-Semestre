@@ -59,10 +59,7 @@ b = 6
 suma = a+b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la suma es:", suma)
-
-#El print se verá de esta manera:
-El resultado de la suma es: 11
+print ("El resultado de la suma es:", suma)         # El resultado de la suma es: 11
 ```
 ### Resta
 
@@ -76,10 +73,7 @@ b = 6
 resta = a-b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la resta es:", resta)
-
-#El print se verá de esta manera:
-El resultado de la resta es: -1
+print ("El resultado de la resta es:", resta)         #El resultado de la resta es: -1
 ```
 ### Multiplicación
 
@@ -93,10 +87,7 @@ b = 5
 multiplicación = a*b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la multiplicación es:", multiplicación)
-
-#El print se verá de esta manera:
-El resultado de la multiplicación es: 50
+print ("El resultado de la multiplicación es:", multiplicación)     #El resultado de la multiplicación es: 50
 ```
 ### División
 
@@ -110,10 +101,7 @@ b = 5
 división = a/b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la división es:", división)
-
-#El print se verá de esta manera:
-El resultado de la división es: 2
+print ("El resultado de la división es:", división)               #El resultado de la división es: 2
 ```
 ### Módulo
 
@@ -123,13 +111,10 @@ a = 10
 b = 5
 
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
-módulo = a%b
+módulo = a % b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("Su módulo sera:", módulo)
-
-#El print se verá de esta manera:
-Su módulo sera: 0
+print ("Su módulo sera:", módulo)                 #Su módulo sera: 0
 ```
 # Tipos de datos en Python
 
@@ -160,10 +145,8 @@ a= 6
 b= 1.5
 suma= a+b
 #Añadiendole el int a la operación, esta nos convertira el valor y nos devolvera un número entero
-print("El resultado es:",int(suma))
-#Es decir el print se vera de la siguiente manera: El resultado es: 7
+print("El resultado es:",int(suma))             #El resultado es: 7
 ```
-
 ## List
 
 ## Tuple
