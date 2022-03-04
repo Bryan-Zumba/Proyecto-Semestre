@@ -157,6 +157,9 @@ lista = list("123456789b")
 print(lista)                              #['1', '2', '3', '4', '5', '6', '7', '8', '9', 'b']
 ```
 ## Tuple
+Son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con (). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas. A continuación un ejemplo:
+tuple = 
+
 
 ## Dictionary
 
