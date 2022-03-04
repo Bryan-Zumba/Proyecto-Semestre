@@ -155,7 +155,15 @@ operación= a+b
 print("15")
 ```
 ## Casting en Python
-
+Hacer un cast o casting significa convertir un tipo de dato a otro, tipos de datos como los int, string o float.
+```python
+#Como podemos ver tenemos dos variables, la primera tipo int y la segunda en float
+a= 6
+b= 1.5
+suma= a+b
+#Añadiendole el int a la operacon, esta nos convertira el valor y nos devolvera un número entero
+print(int(suma))
+```
 
 ## List
 
