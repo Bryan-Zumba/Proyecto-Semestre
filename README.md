@@ -5,14 +5,14 @@ Python es un lenguaje de programación de alto nivel, orientado a objetos, con u
 
 # ¿Qué es una variable?
 
-Una variable es un nombre para representar un valor de un dato, por ejemplo, si tenemos un programa que suma dos número, necesitamos un nombre para identificar el valor1 y el valor2 (mira, esto mismo nos serviría como variables, valor1 y valor2 podrían ser el nombre de nuestras variables)
+Una variable es un nombre para representar un valor de un dato, por ejemplo, si tenemos un programa que suma dos números, necesitamos un nombre para identificar el valor1 y el valor2 (mira, esto mismo nos serviría como variables, valor1 y valor2 podrían ser el nombre de nuestras variables)
 
 ## Nombrando una variable
 
-Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las siguientes reglas al definir una variable,y no tener problemas con el compilador:
+Para poder nombrar una variable correctamente, tenemos que tomar en cuenta las siguientes reglas al definir una variable, y no tener problemas con el compilador:
 
-Una variable siempre debe iniciar con una letra minúscula ó un guión bajo ( _ ), solamente puede contener números después de  la primer letra (siguiendo la regla anterior).
-No es permitido dejar un espacio en blanco a lo largo de la variable (en el caso de tener que separar palabras, utilizaremos el guión bajo " _ ". A lo largo de tu programa, la variable debe escribirse exactamente igual, utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
+Una variable siempre debe iniciar con una letra minúscula o un guion bajo ( _ ), solamente puede contener números después de  la primer letra (siguiendo la regla anterior).
+No es permitido dejar un espacio en blanco a lo largo de la variable (en el caso de tener que separar palabras, utilizaremos el guion bajo " _ ". A lo largo de tu programa, la variable debe escribirse exactamente igual, utiliza un nombre que exprese algo del contexto en el cual la estás declarando.
 
 Una manera correcta de nombrar una variable se vería así:
 ```python
@@ -45,27 +45,27 @@ multiplicación: (*)
 división: (/)
 división entera: (//)
 módulo: (%)
-potenciacion: (**)
+potenciación: (**)
 ```
 ### Suma
 
 Para poder efectuar una suma:
 ```python
-#Definimos variables para nuestros valores numericos 
+#Definimos variables para nuestros valores numéricos 
 a = 5
 b = 6
 
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
-suma = a+b
+suma = a + b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la suma es:", suma)         # El resultado de la suma es: 11
+print ("El resultado de la suma es:", suma)        # El resultado de la suma es: 11
 ```
 ### Resta
 
 La realizaremos de la misma manera que en la suma, solo que esta vez utilizaremos el signo correspondiente a la operación. 
 ```python
-#Definimos variables para nuestros valores numericos 
+#Definimos variables para nuestros valores numéricos 
 a = 5
 b = 6
 
@@ -73,13 +73,13 @@ b = 6
 resta = a-b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la resta es:", resta)         #El resultado de la resta es: -1
+print ("El resultado de la resta es:", resta)        #El resultado de la resta es: -1
 ```
 ### Multiplicación
 
-Para esta operación, utilizaremos su signo correspondiente(*)
+Para esta operación, utilizaremos su signo correspondiente (*)
 ```python
-#Definimos variables para nuestros valores numericos 
+#Definimos variables para nuestros valores numéricos 
 a = 10
 b = 5
 
@@ -87,11 +87,11 @@ b = 5
 multiplicación = a*b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la multiplicación es:", multiplicación)     #El resultado de la multiplicación es: 50
+print ("El resultado de la multiplicación es:", multiplicación)    #El resultado de la multiplicación es: 50
 ```
 ### División
 
-En el caso de la división, sera el mismo proceso, con la diferencia que se realizará con su signo correspondiente.
+En el caso de la división, será el mismo proceso, con la diferencia que se realizará con su signo correspondiente.
 ```python
 #Definimos variables para nuestros valores numéricos 
 a = 10
@@ -101,7 +101,7 @@ b = 5
 división = a/b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la división es:", división)               #El resultado de la división es: 2
+print ("El resultado de la división es:", división)              #El resultado de la división es: 2
 ```
 ### Módulo
 
@@ -114,7 +114,7 @@ b = 5
 módulo = a % b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("Su módulo sera:", módulo)                 #Su módulo sera: 0
+print ("Su módulo será:", módulo)                #Su módulo será: 0
 ```
 # Tipos de datos en Python
 
@@ -132,7 +132,7 @@ Sirve para poder interpretar y representar los números decimales, por ejemplo:
 -5.68
 ```
 ## String
-A los valores que representan texto se les llama strings, y tienen el tipo str. Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
+A los valores que representan texto se les llama strings, y tienen el tipo str. Las cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
 ```python 
 a="Hello world"
 print("a")
@@ -143,9 +143,9 @@ Hacer un cast o casting significa convertir un tipo de dato a otro, tipos de dat
 #Como podemos ver tenemos dos variables, la primera tipo int y la segunda en float
 a= 6
 b= 1.5
-suma= a+b
-#Añadiendole el int a la operación, esta nos convertira el valor y nos devolvera un número entero
-print("El resultado es:",int(suma))             #El resultado es: 7
+suma= a + b
+#Añadiendole el int a la operación, esta nos convertirá el valor y nos devolverá un número entero
+print ("El resultado es:",int(suma))             #El resultado es: 7
 ```
 ## List
 
