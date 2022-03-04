@@ -175,9 +175,13 @@ Los diccionarios son poderosas estructuras de datos en Python que almacenan dato
 *Cada par de clave-valor es denominado como elemento (item).*
 
 *La ventaja de esto es que puedes acceder a todos los valores almacenados usando simplemente las claves.*
-
+```python
+#Ejemplo
+diccionario = {"total": 55}
+#Si necesitamos almacenar nuevos valores basta con separarlos mediante una coma
+diccionario = {"total": 55, "subtotal":50}
+```
 # Tomando decisiones
-
 ## Sentencia if
 
 ## Ciclo For
