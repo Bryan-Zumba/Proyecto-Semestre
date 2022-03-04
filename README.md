@@ -149,10 +149,8 @@ Sirve para poder interpretar y representar los números decimales, por ejemplo:
 ## String
 A los valores que representan texto se les llama strings, y tienen el tipo str. Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
 ```python 
-a="10"
-b="5"
-operación= a+b
-print("15")
+a="Hello world"
+print("a")
 ```
 ## Casting en Python
 Hacer un cast o casting significa convertir un tipo de dato a otro, tipos de datos como los int, string o float.
@@ -161,8 +159,9 @@ Hacer un cast o casting significa convertir un tipo de dato a otro, tipos de dat
 a= 6
 b= 1.5
 suma= a+b
-#Añadiendole el int a la operacon, esta nos convertira el valor y nos devolvera un número entero
-print(int(suma))
+#Añadiendole el int a la operación, esta nos convertira el valor y nos devolvera un número entero
+print("El resultado es:",int(suma))
+#Es decir el print se vera de la siguiente manera: El resultado es: 7
 ```
 
 ## List
