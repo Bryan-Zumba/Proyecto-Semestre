@@ -168,13 +168,13 @@ print(tupla)                     #(0, 100, 200)
 ## Dictionary
 Los diccionarios son poderosas estructuras de datos en Python que almacenan datos como pares de claves, siendo esta representada en la siguiente forma: Clave-Valor. La comprensión de diccionarios (o dict comprehension) puede ser muy útil en crear nuevos diccionarios basados en diccionarios existentes e iterables.
 
-### Todos los elementos en el diccionario se encuentran encerrados en un par de corchetes {}.
+*Todos los elementos en el diccionario se encuentran encerrados en un par de corchetes {}.*
 
-###Cada elemento en un diccionario contiene una clave y un valor - es decir un par de clave-valor.
+*Cada elemento en un diccionario contiene una clave y un valor - es decir un par de clave-valor.*
 
-###Cada par de clave-valor es denominado como elemento (item).
+*Cada par de clave-valor es denominado como elemento (item).*
 
-###La ventaja de esto es que puedes acceder a todos los valores almacenados usando simplemente las claves.
+*La ventaja de esto es que puedes acceder a todos los valores almacenados usando simplemente las claves.*
 
 # Tomando decisiones
 
