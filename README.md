@@ -164,6 +164,7 @@ print(tupla)                     #(0, 100, 200)
 #También puede escribirse sin parentésis ( ), separando con respectivas comas " , ".
 tupla = 0, 100, 200
 print(tupla)                     #(0, 100, 200)
+```
 ## Dictionary
 
 # Tomando decisiones
