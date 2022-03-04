@@ -148,7 +148,11 @@ suma= a + b
 print ("El resultado es:",int(suma))             #El resultado es: 7
 ```
 ## List
-
+Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas.
+Una lista sea crea con [] separando sus elementos con comas " , ". A continuación un ejemplo:
+```python
+lista = [10, "Bryan", 3.67, [1, 6, 9]]
+```
 ## Tuple
 
 ## Dictionary
