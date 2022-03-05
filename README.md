@@ -98,7 +98,7 @@ a = 10
 b = 5
 
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
-división = a/b
+división = a / b
 
 #Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
 print ("El resultado de la división es:", división)              #El resultado de la división es: 2
@@ -182,7 +182,7 @@ diccionario = {
   "subtotal":50
 }
 #Y con el print se vería de la siguiente manera:
-print("Diccionario =",diccionario)            #diccionario = {"total": 55}
+print("Diccionario =",diccionario)            #Diccionario = {'total': 55, 'subtotal': 50}
 ```
 # Tomando decisiones
 ## Sentencia if
