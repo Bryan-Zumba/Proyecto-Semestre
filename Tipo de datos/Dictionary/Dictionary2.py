@@ -4,5 +4,4 @@ antónimos = dict({'acercar':'alejar',
                'largo':'corto',
                'adelantar':'atrasar',
                'grande':'pequeño',})
-
 print (antónimos)
