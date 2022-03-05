@@ -238,7 +238,7 @@ while x < 5:
 La sentencia break permite terminar con la ejecución del bucle. Esto significa que una vez se encuentra la palabra break, el bucle se habrá terminado.
 Por ejemplo:
 ```python
-#Cuando se deje de cumplir la orden, se saldrá del bucle
+#Cuando se encuentre con el número 3, el programa terminará
 x = 0
 while x < 5:
     x +=1
@@ -252,3 +252,19 @@ while x < 5:
 # Se encontró el 3
 ```
 ## Continue
+El continue se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar. La diferencia entre el break y continue es que el continue no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
+Por ejemplo:
+```python
+#Cuando se encuentre con el número 3, se saltará y continuará con los demas print
+x = 0
+while x < 5:
+    x +=1
+    if x==3:
+        continue
+    print(x)
+#Su print se vera así:
+# 1
+# 2
+# 4
+# 5
+```python
