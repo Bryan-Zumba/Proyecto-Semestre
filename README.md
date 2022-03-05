@@ -219,7 +219,36 @@ for n in nums:
 #84
 ```
 ## Ciclo While
-
+El uso del while nos permite ejecutar una sección de código repetidas veces, de ahí su nombre. El código se ejecutará mientras una condición determinada se cumpla. Cuando se deje de cumplir, se saldrá del bucle y se continuará la ejecución normal.
+Por ejemplo:
+```python
+#Cuando se deje de cumplir la orden, se saldrá del bucle
+x = 0
+while x < 5:
+    x +=1
+    print(x)
+#Su print se vera así:
+#1
+#2
+#3
+#4
+#5
+```
 ## Break
-
+La sentencia break permite terminar con la ejecución del bucle. Esto significa que una vez se encuentra la palabra break, el bucle se habrá terminado.
+Por ejemplo:
+```python
+#Cuando se deje de cumplir la orden, se saldrá del bucle
+x = 0
+while x < 5:
+    x +=1
+    if x==3:
+        print("Se encontró el 3")
+        break
+    print(x)
+#Su print se vera así:
+# 1
+# 2
+# Se encontró el 3
+```
 ## Continue
