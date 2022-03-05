@@ -186,7 +186,23 @@ print("Diccionario =",diccionario)            #Diccionario = {'total': 55, 'subt
 ```
 # Tomando decisiones
 ## Sentencia if
+La estructura de control "if" permite que un programa ejecute unas instrucciones cuando se cumplan una condición. La estructura de control if, else, permite que un programa ejecute unas instrucciones cuando se cumple una condición y otras instrucciones cuando no se cumple esa condición. En inglés "if" significa "si" (condición) y "else" significa "si no".
+Por ejemplo:
+```python
+#Calcular el mayor de dos numeros enteros introducidos por el teclado
+#Entrada
+num1= int(input('Ingreso num 1:'))
+num2= int(input('Ingreso num 2:'))
 
+#Proceso
+if num1 > num2:
+    #salida
+    print('El numero mayor es:',num1)
+elif num2> num1:
+    print('El numero mayor es:',num2)
+else:
+    print('Los números son iguales')
+```
 ## Ciclo For
 
 ## Ciclo While
