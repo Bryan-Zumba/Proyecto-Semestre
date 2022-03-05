@@ -33,7 +33,7 @@ En la operación de asignación se ven involucradas tres partes:
 Por ejemplo:
 ```python
 #Asignamos una variable al resultado de la suma entre 1 y 2
-suma_valores = 1+2
+suma_valores = 1 + 2
 ```
 ## Operadores básicos
 
@@ -58,8 +58,8 @@ b = 6
 #Definimos una variable para la operación que realizaremos, en este caso la suma:
 suma = a + b
 
-#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la suma es:", suma)        # El resultado de la suma es: 11
+#Su print se verá así:
+print ("El resultado de la suma es:", suma)       # El resultado de la suma es: 11
 ```
 ### Resta
 
@@ -69,38 +69,38 @@ La realizaremos de la misma manera que en la suma, solo que esta vez utilizaremo
 a = 5
 b = 6
 
-#Definimos una variable para la operación que realizaremos, en este caso la suma:
-resta = a-b
+#Definimos una variable para la operación que realizaremos, en este caso la resta:
+resta = a - b
 
-#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+#Su print se verá así:
 print ("El resultado de la resta es:", resta)        #El resultado de la resta es: -1
 ```
 ### Multiplicación
 
-Para esta operación, utilizaremos su signo correspondiente (*)
+Para esta operación, utilizaremos su signo correspondiente ( * )
 ```python
 #Definimos variables para nuestros valores numéricos 
 a = 10
 b = 5
 
-#Definimos una variable para la operación que realizaremos, en este caso la suma:
-multiplicación = a*b
+#Definimos una variable para la operación que realizaremos, en este caso la multiplicación:
+multiplicación = a * b
 
-#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
-print ("El resultado de la multiplicación es:", multiplicación)    #El resultado de la multiplicación es: 50
+#Su print se verá así:
+print ("El resultado de la multiplicación es:", multiplicación) 	   #El resultado de la multiplicación es: 50
 ```
 ### División
 
-En el caso de la división, será el mismo proceso, con la diferencia que se realizará con su signo correspondiente.
+En el caso de la división, será el mismo proceso de la multiplicación, con la diferencia que se realizará con su signo correspondiente.
 ```python
 #Definimos variables para nuestros valores numéricos 
 a = 10
 b = 5
 
-#Definimos una variable para la operación que realizaremos, en este caso la suma:
+#Definimos una variable para la operación que realizaremos, en este caso la división:
 división = a / b
 
-#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+#Su print se verá así:
 print ("El resultado de la división es:", división)              #El resultado de la división es: 2
 ```
 ### Módulo
@@ -110,10 +110,10 @@ print ("El resultado de la división es:", división)              #El resultado
 a = 10
 b = 5
 
-#Definimos una variable para la operación que realizaremos, en este caso la suma:
+#Definimos una variable para la operación:
 módulo = a % b
 
-#Esta operacio0n se ejecutará, e imprimiremos su resultado de una manera presentable:
+#Su print se verá así:
 print ("Su módulo será:", módulo)                #Su módulo será: 0
 ```
 # Tipos de datos en Python
@@ -132,7 +132,7 @@ Sirve para poder interpretar y representar los números decimales, por ejemplo:
 -5.68
 ```
 ## String
-A los valores que representan texto se les llama strings, y tienen el tipo str. Las cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
+A los valores que representan texto se les llama strings, y tienen el tipo str. Las cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas se delimitan mediante el uso de comillas simples o dobles. Por ejemplo:
 ```python 
 a="Hello world"
 print(a)
@@ -148,7 +148,7 @@ suma= a + b
 print ("El resultado es:",int(suma))             #El resultado es: 7
 ```
 ## List
-Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas, una lista sea crea con [ ] separando sus elementos con comas " , ". A continuación un ejemplo:
+Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas, una lista sea crea con [  ] separando sus elementos con comas " , ". A continuación, un ejemplo:
 ```python
 lista = [10, "Bryan", 3.67, [1, 6, 9]]
 print(lista)                              #[10, 'Bryan', 3.67, [1, 2, 3]]
@@ -157,18 +157,18 @@ lista = list("123456789b")
 print(lista)                              #['1', '2', '3', '4', '5', '6', '7', '8', '9', 'b']
 ```
 ## Tuple
-Son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con ( ). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas. A continuación un ejemplo:
+Son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con ( ). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas. A continuación, un ejemplo:
 ```python
 tupla = (0, 100, 200)
 print(tupla)                     #(0, 100, 200)
-#También puede escribirse sin parentésis ( ), separando con respectivas comas " , ".
+#También puede escribirse sin paréntesis (  ), separando con respectivas comas " , ".
 tupla = 0, 100, 200
 print(tupla)                     #(0, 100, 200)
 ```
 ## Dictionary
-Los diccionarios son poderosas estructuras de datos en Python que almacenan datos como pares de claves, siendo esta representada en la siguiente forma: Clave-Valor. La comprensión de diccionarios (o dict comprehension) puede ser muy útil en crear nuevos diccionarios basados en diccionarios existentes e iterables.
+Los diccionarios son poderosas estructuras de datos en Python que almacenan datos como pares de claves, siendo está representada en la siguiente forma: Clave-Valor. La comprensión de diccionarios (o dict comprehension) puede ser muy útil en crear nuevos diccionarios basados en diccionarios existentes e iterables.
 
-*Todos los elementos en el diccionario se encuentran encerrados en un par de corchetes {}.*
+*Todos los elementos en el diccionario se encuentran encerrados en un par de corchetes { }.*
 
 *Cada elemento en un diccionario contiene una clave y un valor - es decir un par de clave-valor.*
 
@@ -189,7 +189,7 @@ print("Diccionario =",diccionario)            #Diccionario = {'total': 55, 'subt
 La estructura de control "if" permite que un programa ejecute unas instrucciones cuando se cumplan una condición. La estructura de control if, else, permite que un programa ejecute unas instrucciones cuando se cumple una condición y otras instrucciones cuando no se cumple esa condición. En inglés "if" significa "si" (condición) y "else" significa "si no".
 Por ejemplo:
 ```python
-#Calcular el mayor de dos numeros enteros introducidos por el teclado
+#Calcular el mayor de dos números enteros introducidos por el teclado
 #Entrada
 num1= int(input('Ingreso num 1:'))
 num2= int(input('Ingreso num 2:'))
@@ -212,7 +212,7 @@ Por ejemplo:
 nums = [4, 78, 9, 84]
 for n in nums:
     print(n)
-#Su print se vera así:
+#Su print se verá así:
 #4
 #78
 #9
@@ -227,7 +227,7 @@ x = 0
 while x < 5:
     x +=1
     print(x)
-#Su print se vera así:
+#Su print se verá así:
 #1
 #2
 #3
@@ -246,7 +246,7 @@ while x < 5:
         print("Se encontró el 3")
         break
     print(x)
-#Su print se vera así:
+#Su print se verá así:
 # 1
 # 2
 # Se encontró el 3
@@ -255,14 +255,14 @@ while x < 5:
 El continue se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar. La diferencia entre el break y continue es que el continue no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
 Por ejemplo:
 ```python
-#Cuando se encuentre con el número 3, se saltará y continuará con los demas print
+#Cuando se encuentre con el número 3, se saltará y continuará con los demás print
 x = 0
 while x < 5:
     x +=1
     if x==3:
         continue
     print(x)
-#Su print se vera así:
+#Su print se verá así:
 # 1
 # 2
 # 4
