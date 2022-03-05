@@ -196,15 +196,28 @@ num2= int(input('Ingreso num 2:'))
 
 #Proceso
 if num1 > num2:
-    #salida
+    #Salida
     print('El numero mayor es:',num1)
 elif num2> num1:
+    #Salida
     print('El numero mayor es:',num2)
 else:
+    #Salida
     print('Los números son iguales')
 ```
 ## Ciclo For
-
+El bucle for se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
+Por ejemplo:
+```python
+nums = [4, 78, 9, 84]
+for n in nums:
+    print(n)
+#Su print se vera así:
+#4
+#78
+#9
+#84
+```
 ## Ciclo While
 
 ## Break
