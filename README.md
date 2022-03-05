@@ -191,8 +191,8 @@ Por ejemplo:
 ```python
 #Calcular el mayor de dos números enteros introducidos por el teclado
 #Entrada
-num1= int(input('Ingreso num 1:'))
-num2= int(input('Ingreso num 2:'))
+num1= int(input('Ingrese num 1:'))
+num2= int(input('Ingrese num 2:'))
 
 #Proceso
 if num1 > num2:
